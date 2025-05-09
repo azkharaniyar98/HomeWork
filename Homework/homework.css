@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.helasidan {
+   display: flex;
+   width: 100%;
+}
+
+.ruta{
+    flex: 1;
+    padding: 10px;
+    color: black;
+}
+
+.ruta-1{
+    margin: 0 0 10px 0;
+    background-color: rgb(80, 134, 80);
+}
+
+.ruta-2{
+    margin: 0 0 10px 0;  
+    background-color: rgb(134, 134, 255);
+}
+
+.ruta-3{
+    margin: 0 0 10px 0;
+    background-color: rgb(80, 134, 80);
+}
+
+@media only screen and (max-width: 768px){
+    .helasidan{
+        flex-direction: column;
+    }
+    .ruta{
+        width: 100%;
+        margin: 0;
+    }
+}
